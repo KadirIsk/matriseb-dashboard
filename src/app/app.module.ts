@@ -42,10 +42,10 @@ import { FormsModule } from '@angular/forms';
     }),
     CoreModule.forRoot(),
     ThemeModule.forRoot(),
-    FormsModule
+    FormsModule,
   ],
   providers: [
-    AuthGuard
+    AuthGuard,
   ],
   bootstrap: [AppComponent],
 })
